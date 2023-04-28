@@ -1,0 +1,1 @@
+/home/thiago/workspaces/lidar/build/version0/rosidl_typesupport_introspection_c/version0/msg/rosidl_typesupport_introspection_c__visibility_control.h

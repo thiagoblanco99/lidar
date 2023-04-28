@@ -1,0 +1,1 @@
+/home/thiago/workspaces/lidar/build/version0/ament_cmake_core/version0Config.cmake

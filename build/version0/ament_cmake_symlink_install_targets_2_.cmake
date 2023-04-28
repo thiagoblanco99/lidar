@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/thiago/workspaces/lidar/build/version0/rosidl_generator_py/version0/version0_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "version0__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/version0")

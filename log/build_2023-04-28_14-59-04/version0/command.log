@@ -1,0 +1,6 @@
+Invoking command in '/home/thiago/workspaces/lidar/build/version0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thiago/workspaces/lidar/src/version0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version0
+Invoked command in '/home/thiago/workspaces/lidar/build/version0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thiago/workspaces/lidar/src/version0 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version0
+Invoking command in '/home/thiago/workspaces/lidar/build/version0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version0 -- -j12 -l12
+Invoked command in '/home/thiago/workspaces/lidar/build/version0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version0 -- -j12 -l12
+Invoking command in '/home/thiago/workspaces/lidar/build/version0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version0
+Invoked command in '/home/thiago/workspaces/lidar/build/version0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version0

@@ -1,0 +1,1 @@
+/home/thiago/workspaces/lidar/build/version0/rosidl_generator_c/version0/msg/rosidl_generator_c__visibility_control.h
