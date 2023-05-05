@@ -382,8 +382,8 @@ ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version
 # install(DIRECTORY "/home/thiago/workspaces/lidar/src/version0/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version0" DIRECTORY "/home/thiago/workspaces/lidar/src/version0/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/action_server.py" "scripts/action_client.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/version0")
-ament_cmake_symlink_install_programs("/home/thiago/workspaces/lidar/src/version0" PROGRAMS "scripts/RPM.py" "scripts/VEL.py" "scripts/action_server.py" "scripts/action_client.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/version0")
+# install(PROGRAMS "scripts/publisher_laserscan.py" "DESTINATION" "lib/version0")
+ament_cmake_symlink_install_programs("/home/thiago/workspaces/lidar/src/version0" PROGRAMS "scripts/publisher_laserscan.py" "DESTINATION" "lib/version0")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/version0/")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version0" DIRECTORY "launch" "DESTINATION" "share/version0/")
