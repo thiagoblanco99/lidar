@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.000139] (version0) JobQueued: {'identifier': 'version0', 'dependencies': OrderedDict()}
+[0.000201] (version1) JobQueued: {'identifier': 'version1', 'dependencies': OrderedDict()}
+[0.000268] (version0) JobStarted: {'identifier': 'version0'}
+[0.006141] (version1) JobStarted: {'identifier': 'version1'}
+[0.011370] (version0) JobProgress: {'identifier': 'version0', 'progress': 'cmake'}
+[0.012064] (version0) JobProgress: {'identifier': 'version0', 'progress': 'build'}
+[0.013917] (version0) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thiago/workspaces/lidar/build/version0', '--', '-j12', '-l12'], 'cwd': '/home/thiago/workspaces/lidar/build/version0', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thiago'), ('LC_TIME', 'es_AR.UTF-8'), ('GIO_MODULE_DIR', '/home/thiago/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thiago/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/129/usr/share/code/code'), ('MANAGERPID', '1595'), ('SYSTEMD_EXEC_PID', '1814'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '500749'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thiago'), ('JOURNAL_STREAM', '8:36252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-ubuntu:@/tmp/.ICE-unix/1791,unix/thiago-ubuntu:/tmp/.ICE-unix/1791'), ('GTK_EXE_PREFIX', '/snap/code/129/usr'), ('INVOCATION_ID', '68c84da99d8246baae772c3e3543dde1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/129/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CA2H41'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f6dfffcee1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thiago/snap/code/129/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/workspaces/lidar/build/version0'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thiago/snap/code/129/.local/share:/home/thiago/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016093] (version1) JobProgress: {'identifier': 'version1', 'progress': 'cmake'}
+[0.016717] (version1) JobProgress: {'identifier': 'version1', 'progress': 'build'}
+[0.017486] (version1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thiago/workspaces/lidar/build/version1', '--', '-j12', '-l12'], 'cwd': '/home/thiago/workspaces/lidar/build/version1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thiago'), ('LC_TIME', 'es_AR.UTF-8'), ('GIO_MODULE_DIR', '/home/thiago/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thiago/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/129/usr/share/code/code'), ('MANAGERPID', '1595'), ('SYSTEMD_EXEC_PID', '1814'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '500749'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thiago'), ('JOURNAL_STREAM', '8:36252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-ubuntu:@/tmp/.ICE-unix/1791,unix/thiago-ubuntu:/tmp/.ICE-unix/1791'), ('GTK_EXE_PREFIX', '/snap/code/129/usr'), ('INVOCATION_ID', '68c84da99d8246baae772c3e3543dde1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/129/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CA2H41'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f6dfffcee1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thiago/snap/code/129/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/workspaces/lidar/build/version1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thiago/snap/code/129/.local/share:/home/thiago/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037388] (version1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.049817] (version0) StdoutLine: {'line': b'[  2%] Built target version0__cpp\n'}
+[0.050074] (version0) StdoutLine: {'line': b'[ 12%] Built target version0__rosidl_generator_c\n'}
+[0.056059] (version0) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_scripts\n'}
+[0.056471] (version0) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_version0\n'}
+[0.068855] (version0) StdoutLine: {'line': b'[ 53%] Built target version0__rosidl_typesupport_c\n'}
+[0.069142] (version0) StdoutLine: {'line': b'[ 53%] Built target version0__rosidl_typesupport_fastrtps_cpp\n'}
+[0.069253] (version0) StdoutLine: {'line': b'[ 53%] Built target version0__rosidl_typesupport_fastrtps_c\n'}
+[0.069350] (version0) StdoutLine: {'line': b'[ 53%] Built target version0__rosidl_typesupport_introspection_c\n'}
+[0.069875] (version0) StdoutLine: {'line': b'[ 64%] Built target version0__rosidl_typesupport_cpp\n'}
+[0.073797] (version0) StdoutLine: {'line': b'[ 74%] Built target version0__rosidl_typesupport_introspection_cpp\n'}
+[0.088647] (version0) StdoutLine: {'line': b'[ 74%] Built target version0\n'}
+[0.098966] (-) TimerEvent: {}
+[0.103177] (version0) StdoutLine: {'line': b'[ 76%] Built target version0__py\n'}
+[0.121087] (version0) StdoutLine: {'line': b'[ 84%] Built target version0__rosidl_generator_py\n'}
+[0.137336] (version0) StdoutLine: {'line': b'[100%] Built target version0__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.137562] (version0) StdoutLine: {'line': b'[100%] Built target version0__rosidl_typesupport_introspection_c__pyext\n'}
+[0.137698] (version0) StdoutLine: {'line': b'[100%] Built target version0__rosidl_typesupport_c__pyext\n'}
+[0.152609] (version1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.158123] (version1) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.183631] (version1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.185348] (version1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.189831] (version1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.197709] (version1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199034] (-) TimerEvent: {}
+[0.210790] (version1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.247791] (version0) StdoutLine: {'line': b'running egg_info\n'}
+[0.248030] (version0) StdoutLine: {'line': b'running egg_info\n'}
+[0.248306] (version0) StdoutLine: {'line': b'writing version0.egg-info/PKG-INFO\n'}
+[0.248495] (version0) StdoutLine: {'line': b'writing dependency_links to version0.egg-info/dependency_links.txt\n'}
+[0.248624] (version0) StdoutLine: {'line': b'writing top-level names to version0.egg-info/top_level.txt\n'}
+[0.248719] (version0) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[0.248830] (version0) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[0.248962] (version0) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[0.250111] (version0) StdoutLine: {'line': b"reading manifest file 'version0.egg-info/SOURCES.txt'\n"}
+[0.250330] (version0) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.250551] (version0) StdoutLine: {'line': b"writing manifest file 'version0.egg-info/SOURCES.txt'\n"}
+[0.250734] (version0) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[0.274887] (version0) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_scripts_egg\n'}
+[0.275069] (version0) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_version0_egg\n'}
+[0.281290] (version0) CommandEnded: {'returncode': 0}
+[0.299127] (-) TimerEvent: {}
+[0.319540] (version0) JobProgress: {'identifier': 'version0', 'progress': 'install'}
+[0.325714] (version0) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thiago/workspaces/lidar/build/version0'], 'cwd': '/home/thiago/workspaces/lidar/build/version0', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thiago'), ('LC_TIME', 'es_AR.UTF-8'), ('GIO_MODULE_DIR', '/home/thiago/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thiago/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/129/usr/share/code/code'), ('MANAGERPID', '1595'), ('SYSTEMD_EXEC_PID', '1814'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '500749'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thiago'), ('JOURNAL_STREAM', '8:36252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-ubuntu:@/tmp/.ICE-unix/1791,unix/thiago-ubuntu:/tmp/.ICE-unix/1791'), ('GTK_EXE_PREFIX', '/snap/code/129/usr'), ('INVOCATION_ID', '68c84da99d8246baae772c3e3543dde1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/129/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CA2H41'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f6dfffcee1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thiago/snap/code/129/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/workspaces/lidar/build/version0'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thiago/snap/code/129/.local/share:/home/thiago/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.330009] (version0) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.330446] (version0) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.330610] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/ament_index/resource_index/rosidl_interfaces/version0\n'}
+[0.330921] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__functions.h\n'}
+[0.331013] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__struct.h\n'}
+[0.331106] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__type_support.h\n'}
+[0.331224] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/navigate.h\n'}
+[0.331303] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.331374] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__functions.h\n'}
+[0.331478] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__struct.h\n'}
+[0.331534] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__type_support.h\n'}
+[0.331598] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/odd_even_check.h\n'}
+[0.331700] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/library_path.sh\n'}
+[0.331756] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/library_path.dsv\n'}
+[0.332011] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[0.332093] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.332180] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[0.332410] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__builder.hpp\n'}
+[0.332503] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__struct.hpp\n'}
+[0.332580] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__traits.hpp\n'}
+[0.332683] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/navigate.hpp\n'}
+[0.332766] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__builder.hpp\n'}
+[0.332831] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__struct.hpp\n'}
+[0.332931] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__traits.hpp\n'}
+[0.332988] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/odd_even_check.hpp\n'}
+[0.333241] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.333321] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.333406] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.333630] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[0.333740] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.333809] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[0.333974] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.334044] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/include/version0/version0/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.334148] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/pythonpath.sh\n'}
+[0.334234] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/pythonpath.dsv\n'}
+[0.334444] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.334520] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.334594] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.334709] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.335117] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/__init__.py\n'}
+[0.335222] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/_version0_s.ep.rosidl_typesupport_c.c\n'}
+[0.335313] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/_version0_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.335420] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/_version0_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.335509] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/action/__init__.py\n'}
+[0.335589] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/action/_navigate.py\n'}
+[0.335664] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/action/_navigate_s.c\n'}
+[0.335773] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/libversion0__rosidl_generator_py.so\n'}
+[0.335857] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/srv/__init__.py\n'}
+[0.335934] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/srv/_odd_even_check.py\n'}
+[0.336019] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/srv/_odd_even_check_s.c\n'}
+[0.336105] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336194] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336281] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336484] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336660] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336835] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/version0_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.336959] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/srv/OddEvenCheck.idl\n'}
+[0.337073] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/action/Navigate.idl\n'}
+[0.337186] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/srv/OddEvenCheck.srv\n'}
+[0.337298] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/srv/OddEvenCheck_Request.msg\n'}
+[0.337409] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/srv/OddEvenCheck_Response.msg\n'}
+[0.337518] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/action/Navigate.action\n'}
+[0.337739] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.337821] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.337913] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.337994] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.338230] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[0.338311] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts/publisher_laserscan.py\n'}
+[0.338427] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/lib/version0/publisher_laserscan.py\n'}
+[0.338612] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0//launch/rpm_node_launch.py\n'}
+[0.338737] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/ament_index/resource_index/package_run_dependencies/version0\n'}
+[0.338855] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/ament_index/resource_index/parent_prefix_path/version0\n'}
+[0.338977] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/ament_prefix_path.sh\n'}
+[0.339091] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/ament_prefix_path.dsv\n'}
+[0.339201] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/path.sh\n'}
+[0.339310] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/environment/path.dsv\n'}
+[0.339420] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/local_setup.bash\n'}
+[0.339530] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/local_setup.sh\n'}
+[0.339637] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/local_setup.zsh\n'}
+[0.339745] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/local_setup.dsv\n'}
+[0.339831] (version0) StdoutLine: {'line': b'-- Symlinking: /home/thiago/workspaces/lidar/install/version0/share/version0/package.dsv\n'}
+[0.345916] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/ament_index/resource_index/packages/version0\n'}
+[0.346086] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/rosidl_cmake-extras.cmake\n'}
+[0.346174] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.346290] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.346408] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.346519] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.346632] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.346756] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.346860] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0Config.cmake\n'}
+[0.346945] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0Config-version.cmake\n'}
+[0.347063] (version0) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version0/share/version0/package.xml\n'}
+[0.347220] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_generator_c.so\n'}
+[0.347407] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_fastrtps_c.so\n'}
+[0.347583] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.347757] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_introspection_c.so\n'}
+[0.347921] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_c.so\n'}
+[0.348089] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_introspection_cpp.so\n'}
+[0.348254] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_typesupport_cpp.so\n'}
+[0.370103] (version0) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0'...\n"}
+[0.370272] (version0) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/action'...\n"}
+[0.370349] (version0) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/version0/srv'...\n"}
+[0.373646] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/lib/libversion0__rosidl_generator_py.so\n'}
+[0.374038] (version1) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.394863] (version0) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version0/local/lib/python3.10/dist-packages/scripts'...\n"}
+[0.398603] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_generator_cExport.cmake\n'}
+[0.398755] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.398854] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.398933] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.399005] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_generator_cppExport.cmake\n'}
+[0.399088] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.399146] (-) TimerEvent: {}
+[0.399235] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.399339] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.399399] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.399463] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_cExport.cmake\n'}
+[0.399869] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.399927] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.399977] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.400026] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_cppExport.cmake\n'}
+[0.400073] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/version0__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.400150] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_generator_pyExport.cmake\n'}
+[0.400232] (version0) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version0/share/version0/cmake/export_version0__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.401610] (version0) CommandEnded: {'returncode': 0}
+[0.415102] (version1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.415714] (version1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.466158] (version0) JobEnded: {'identifier': 'version0', 'rc': 0}
+[0.499264] (-) TimerEvent: {}
+[0.508699] (version1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599357] (-) TimerEvent: {}
+[0.627196] (version1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.643549] (version1) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.699466] (-) TimerEvent: {}
+[0.747871] (version1) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[0.799567] (-) TimerEvent: {}
+[0.834998] (version1) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.835166] (version1) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.899671] (-) TimerEvent: {}
+[0.999944] (-) TimerEvent: {}
+[1.100226] (-) TimerEvent: {}
+[1.133721] (version1) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.139691] (version1) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.154799] (version1) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.154978] (version1) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.183903] (version1) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.190692] (version1) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.200332] (-) TimerEvent: {}
+[1.212630] (version1) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.212803] (version1) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.300457] (-) TimerEvent: {}
+[1.400744] (-) TimerEvent: {}
+[1.501055] (-) TimerEvent: {}
+[1.601336] (-) TimerEvent: {}
+[1.701649] (-) TimerEvent: {}
+[1.801922] (-) TimerEvent: {}
+[1.865793] (version1) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.872594] (version1) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.889762] (version1) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.890662] (version1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.902042] (-) TimerEvent: {}
+[1.921926] (version1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.002159] (-) TimerEvent: {}
+[2.042656] (version1) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.046698] (version1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.050833] (version1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.102262] (-) TimerEvent: {}
+[2.170684] (version1) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.202373] (-) TimerEvent: {}
+[2.285936] (version1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.302484] (-) TimerEvent: {}
+[2.399191] (version1) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.399853] (version1) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.400531] (version1) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.401174] (version1) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.401858] (version1) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.402542] (version1) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.402655] (-) TimerEvent: {}
+[2.402864] (version1) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.403298] (version1) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.404581] (version1) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.405524] (version1) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.406449] (version1) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.407294] (version1) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.408087] (version1) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.408930] (version1) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.409763] (version1) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.410519] (version1) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.411542] (version1) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.412678] (version1) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.413842] (version1) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.414808] (version1) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.415712] (version1) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.416071] (version1) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.416521] (version1) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.417559] (version1) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.418611] (version1) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.502775] (-) TimerEvent: {}
+[2.603152] (-) TimerEvent: {}
+[2.673274] (version1) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.703213] (-) TimerEvent: {}
+[2.803430] (-) TimerEvent: {}
+[2.903706] (-) TimerEvent: {}
+[3.003970] (-) TimerEvent: {}
+[3.004868] (version1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.104081] (-) TimerEvent: {}
+[3.143668] (version1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.159088] (version1) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.174424] (version1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.174581] (version1) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.174650] (version1) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.204161] (-) TimerEvent: {}
+[3.217924] (version1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.225852] (version1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.226219] (version1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.226489] (version1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.227583] (version1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.229453] (version1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.262443] (version1) StdoutLine: {'line': b'-- Generating done\n'}
+[3.266073] (version1) StdoutLine: {'line': b'-- Build files have been written to: /home/thiago/workspaces/lidar/build/version1\n'}
+[3.291598] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_generator_c\x1b[0m\n'}
+[3.296975] (version1) StdoutLine: {'line': b'[  2%] Built target version1__cpp\n'}
+[3.298119] (version1) StdoutLine: {'line': b'[ 12%] Built target version1__rosidl_generator_c\n'}
+[3.302596] (version1) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_version1\n'}
+[3.302876] (version1) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_scripts\n'}
+[3.303560] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.304241] (-) TimerEvent: {}
+[3.305141] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_c\x1b[0m\n'}
+[3.305407] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.305553] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.306573] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.306712] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.319145] (version1) StdoutLine: {'line': b'[ 35%] Built target version1__rosidl_typesupport_c\n'}
+[3.319381] (version1) StdoutLine: {'line': b'[ 35%] Built target version1__rosidl_typesupport_cpp\n'}
+[3.319481] (version1) StdoutLine: {'line': b'[ 43%] Built target version1__rosidl_typesupport_introspection_c\n'}
+[3.319646] (version1) StdoutLine: {'line': b'[ 53%] Built target version1__rosidl_typesupport_introspection_cpp\n'}
+[3.320562] (version1) StdoutLine: {'line': b'[ 64%] Built target version1__rosidl_typesupport_fastrtps_c\n'}
+[3.321807] (version1) StdoutLine: {'line': b'[ 74%] Built target version1__rosidl_typesupport_fastrtps_cpp\n'}
+[3.335188] (version1) StdoutLine: {'line': b'[ 74%] Built target version1\n'}
+[3.347885] (version1) StdoutLine: {'line': b'[ 76%] Built target version1__py\n'}
+[3.354091] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_generator_py\x1b[0m\n'}
+[3.364111] (version1) StdoutLine: {'line': b'[ 84%] Built target version1__rosidl_generator_py\n'}
+[3.371017] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.371208] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.371321] (version1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.380148] (version1) StdoutLine: {'line': b'[100%] Built target version1__rosidl_typesupport_c__pyext\n'}
+[3.380377] (version1) StdoutLine: {'line': b'[100%] Built target version1__rosidl_typesupport_introspection_c__pyext\n'}
+[3.380495] (version1) StdoutLine: {'line': b'[100%] Built target version1__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.404348] (-) TimerEvent: {}
+[3.486077] (version1) StdoutLine: {'line': b'running egg_info\n'}
+[3.486607] (version1) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[3.486748] (version1) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[3.486871] (version1) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[3.488229] (version1) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[3.488722] (version1) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[3.504455] (-) TimerEvent: {}
+[3.511630] (version1) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_scripts_egg\n'}
+[3.511851] (version1) StdoutLine: {'line': b'running egg_info\n'}
+[3.512624] (version1) StdoutLine: {'line': b'writing version1.egg-info/PKG-INFO\n'}
+[3.512791] (version1) StdoutLine: {'line': b'writing dependency_links to version1.egg-info/dependency_links.txt\n'}
+[3.512930] (version1) StdoutLine: {'line': b'writing top-level names to version1.egg-info/top_level.txt\n'}
+[3.514928] (version1) StdoutLine: {'line': b"reading manifest file 'version1.egg-info/SOURCES.txt'\n"}
+[3.515386] (version1) StdoutLine: {'line': b"writing manifest file 'version1.egg-info/SOURCES.txt'\n"}
+[3.538331] (version1) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_version1_egg\n'}
+[3.544645] (version1) CommandEnded: {'returncode': 0}
+[3.583417] (version1) JobProgress: {'identifier': 'version1', 'progress': 'install'}
+[3.584494] (version1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thiago/workspaces/lidar/build/version1'], 'cwd': '/home/thiago/workspaces/lidar/build/version1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thiago'), ('LC_TIME', 'es_AR.UTF-8'), ('GIO_MODULE_DIR', '/home/thiago/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/thiago/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/129/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/129/usr/share/code/code'), ('MANAGERPID', '1595'), ('SYSTEMD_EXEC_PID', '1814'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '500749'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thiago'), ('JOURNAL_STREAM', '8:36252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-ubuntu:@/tmp/.ICE-unix/1791,unix/thiago-ubuntu:/tmp/.ICE-unix/1791'), ('GTK_EXE_PREFIX', '/snap/code/129/usr'), ('INVOCATION_ID', '68c84da99d8246baae772c3e3543dde1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_AR.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/129/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_AR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CA2H41'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f6dfffcee1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/thiago/snap/code/129/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_AR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_AR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_AR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/workspaces/lidar/build/version1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/thiago/snap/code/129/.local/share:/home/thiago/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_AR.UTF-8'), ('LC_PAPER', 'es_AR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.588978] (version1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.589414] (version1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.589560] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/rosidl_interfaces/version1\n'}
+[3.589875] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__functions.h\n'}
+[3.589962] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__struct.h\n'}
+[3.590037] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__type_support.h\n'}
+[3.590113] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/navigate.h\n'}
+[3.590187] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.590262] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__functions.h\n'}
+[3.590342] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__struct.h\n'}
+[3.590393] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__type_support.h\n'}
+[3.590469] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/odd_even_check.h\n'}
+[3.590541] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/library_path.sh\n'}
+[3.590616] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/library_path.dsv\n'}
+[3.590953] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[3.591017] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.591088] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[3.591344] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__builder.hpp\n'}
+[3.591411] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__struct.hpp\n'}
+[3.591482] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__traits.hpp\n'}
+[3.591544] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/navigate.hpp\n'}
+[3.591614] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__builder.hpp\n'}
+[3.591686] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__struct.hpp\n'}
+[3.591757] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__traits.hpp\n'}
+[3.591831] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/odd_even_check.hpp\n'}
+[3.592167] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.592232] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.592302] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.592569] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[3.592642] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.592713] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[3.592925] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.592992] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.593091] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.sh\n'}
+[3.593186] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.dsv\n'}
+[3.593382] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.593445] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.593523] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.593592] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.594015] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/__init__.py\n'}
+[3.594096] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_c.c\n'}
+[3.594170] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.594243] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.594320] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/__init__.py\n'}
+[3.594397] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/_navigate.py\n'}
+[3.594461] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/_navigate_s.c\n'}
+[3.594523] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/libversion1__rosidl_generator_py.so\n'}
+[3.594599] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/__init__.py\n'}
+[3.594683] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/_odd_even_check.py\n'}
+[3.594735] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/_odd_even_check_s.c\n'}
+[3.594822] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.594874] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.594951] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.595046] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.595203] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.595357] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.595463] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck.idl\n'}
+[3.595558] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/action/Navigate.idl\n'}
+[3.595652] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck.srv\n'}
+[3.595744] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck_Request.msg\n'}
+[3.595835] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck_Response.msg\n'}
+[3.595927] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/action/Navigate.action\n'}
+[3.596128] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.596193] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.596260] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.596418] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.596624] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[3.596703] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_filtro.py\n'}
+[3.596774] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_laserscan.py\n'}
+[3.596853] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/lib/version1/publisher_laserscan.py\n'}
+[3.596919] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/lib/version1/publisher_filtro.py\n'}
+[3.597085] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1//launch/rpm_node_launch.py\n'}
+[3.597197] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/package_run_dependencies/version1\n'}
+[3.597298] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/parent_prefix_path/version1\n'}
+[3.597395] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/ament_prefix_path.sh\n'}
+[3.597486] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/ament_prefix_path.dsv\n'}
+[3.597580] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/path.sh\n'}
+[3.597673] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/path.dsv\n'}
+[3.597761] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.bash\n'}
+[3.597854] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.sh\n'}
+[3.597936] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.zsh\n'}
+[3.598022] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.dsv\n'}
+[3.598090] (version1) StdoutLine: {'line': b'-- Symlinking: /home/thiago/workspaces/lidar/install/version1/share/version1/package.dsv\n'}
+[3.602984] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/packages/version1\n'}
+[3.603095] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/rosidl_cmake-extras.cmake\n'}
+[3.603216] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.603332] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.603447] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.603568] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.603679] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.603788] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.603919] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1Config.cmake\n'}
+[3.603996] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1Config-version.cmake\n'}
+[3.604083] (version1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/package.xml\n'}
+[3.604255] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_generator_c.so\n'}
+[3.604448] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_fastrtps_c.so\n'}
+[3.604500] (-) TimerEvent: {}
+[3.604606] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.604770] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_introspection_c.so\n'}
+[3.604928] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_c.so\n'}
+[3.605123] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_introspection_cpp.so\n'}
+[3.605296] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_typesupport_cpp.so\n'}
+[3.628275] (version1) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1'...\n"}
+[3.628458] (version1) StdoutLine: {'line': b"Compiling '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/__init__.py'...\n"}
+[3.628530] (version1) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action'...\n"}
+[3.628591] (version1) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv'...\n"}
+[3.631455] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/lib/libversion1__rosidl_generator_py.so\n'}
+[3.652222] (version1) StdoutLine: {'line': b"Listing '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts'...\n"}
+[3.652361] (version1) StdoutLine: {'line': b"Compiling '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_filtro.py'...\n"}
+[3.652435] (version1) StdoutLine: {'line': b'***   File "/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_filtro.py", line 19\n'}
+[3.652502] (version1) StdoutLine: {'line': b'    cloud.from_msg(msg).\n'}
+[3.652558] (version1) StdoutLine: {'line': b'                        ^\n'}
+[3.652613] (version1) StdoutLine: {'line': b'SyntaxError: invalid syntax\n'}
+[3.652665] (version1) StdoutLine: {'line': b'\n'}
+[3.655431] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_generator_cExport.cmake\n'}
+[3.655585] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.655692] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.655748] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.655801] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_generator_cppExport.cmake\n'}
+[3.655871] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.655921] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.655992] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.656058] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.656110] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_cExport.cmake\n'}
+[3.656178] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.656236] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.656304] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.656375] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_cppExport.cmake\n'}
+[3.656426] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.656488] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_generator_pyExport.cmake\n'}
+[3.656558] (version1) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/export_version1__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.657941] (version1) CommandEnded: {'returncode': 0}
+[3.704602] (-) TimerEvent: {}
+[3.718046] (version1) JobEnded: {'identifier': 'version1', 'rc': 0}
+[3.718605] (-) EventReactorShutdown: {}

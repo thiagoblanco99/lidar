@@ -1,0 +1,2 @@
+Invoking command in '/home/thiago/workspaces/lidar/build/version1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version1
+Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version1

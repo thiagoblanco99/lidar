@@ -1,0 +1,1 @@
+/home/thiago/workspaces/lidar/src/version1/scripts/__init__.py

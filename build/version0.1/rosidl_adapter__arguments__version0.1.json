@@ -1,0 +1,7 @@
+{
+  "package_name": "version0.1",
+  "non_idl_tuples": [
+    "/home/thiago/workspaces/lidar/src/version0.1:srv/OddEvenCheck.srv",
+    "/home/thiago/workspaces/lidar/src/version0.1:action/Navigate.action"
+  ]
+}

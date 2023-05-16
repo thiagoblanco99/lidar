@@ -1,0 +1,67 @@
+[0.013s] Invoking command in '/home/thiago/workspaces/lidar/build/version0.1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version0.1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version0.1
+[0.080s] -- The C compiler identification is GNU 11.3.0
+[0.137s] -- The CXX compiler identification is GNU 11.3.0
+[0.143s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.431s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.465s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.832s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.832s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.832s]   version0.1 --arguments-file
+[0.832s]   /home/thiago/workspaces/lidar/build/version0.1/rosidl_adapter__arguments__version0.1.json
+[0.832s]   --output-dir
+[0.832s]   /home/thiago/workspaces/lidar/build/version0.1/rosidl_adapter/version0.1
+[0.832s]   --output-file
+[0.832s]   /home/thiago/workspaces/lidar/build/version0.1/rosidl_adapter/version0.1.idls)
+[0.832s]   returned error code 1:
+[0.833s] 
+[0.833s]   Traceback (most recent call last):
+[0.833s] 
+[0.833s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.833s]       return _run_code(code, main_globals, None,
+[0.833s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.833s]       exec(code, run_globals)
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.833s]       sys.exit(main())
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.833s]       abs_idl_file = convert_to_idl(
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.833s]       return convert_srv_to_idl(
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.833s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.833s]       request_message = parse_message_string(
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.833s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.833s]       self.base_type = BaseType(
+[0.833s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 201, in __init__
+[0.833s]       raise InvalidResourceName(
+[0.834s] 
+[0.834s]   rosidl_adapter.parser.InvalidResourceName: 'version0.1' is an invalid
+[0.834s]   package name.  It should have the pattern
+[0.834s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.834s] 
+[0.834s] Call Stack (most recent call first):
+[0.834s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.834s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.834s] 
+[0.834s] [0m
+[0.834s] -- Configuring incomplete, errors occurred!
+[0.834s] See also "/home/thiago/workspaces/lidar/build/version0.1/CMakeFiles/CMakeOutput.log".
+[0.839s] Invoked command in '/home/thiago/workspaces/lidar/build/version0.1' returned '1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version0.1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version0.1

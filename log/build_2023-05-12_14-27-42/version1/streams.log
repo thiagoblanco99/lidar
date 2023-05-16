@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/thiago/workspaces/lidar/build/version1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version1
+[0.032s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.201s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.205s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.212s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.476s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.707s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.714s] -- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)
+[0.714s] -- Found perception_pcl: 2.4.0 (/opt/ros/humble/share/perception_pcl/cmake)
+[0.715s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.816s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.895s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.198s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.224s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.473s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.477s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.590s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.594s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.598s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.719s] -- Found Qhull version 8.0.2
+[1.831s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.117s] Error parsing '/home/thiago/workspaces/lidar/src/version1/package.xml':
+[2.146s] Traceback (most recent call last):
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.146s]     main()
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.146s]     raise e
+[2.146s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.146s]     package = parse_package_string(
+[2.146s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[2.147s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[2.147s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/thiago/workspaces/lidar/src/version1/package.xml':
+[2.147s] Error(s):
+[2.147s] - The generic dependency on 'pcl_conversions' is redundant with: build_depend, exec_depend
+[2.156s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.156s]   execute_process(/usr/bin/python3.10
+[2.156s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.156s]   /home/thiago/workspaces/lidar/src/version1/package.xml
+[2.156s]   /home/thiago/workspaces/lidar/build/version1/ament_cmake_core/package.cmake)
+[2.156s]   returned error code 1
+[2.156s] Call Stack (most recent call first):
+[2.156s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.156s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[2.156s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[2.157s] 
+[2.157s] [0m
+[2.157s] -- Configuring incomplete, errors occurred!
+[2.157s] See also "/home/thiago/workspaces/lidar/build/version1/CMakeFiles/CMakeOutput.log".
+[2.169s] Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '1': /usr/bin/cmake /home/thiago/workspaces/lidar/src/version1 -DCMAKE_INSTALL_PREFIX=/home/thiago/workspaces/lidar/install/version1

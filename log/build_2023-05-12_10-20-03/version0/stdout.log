@@ -1,0 +1,65 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thiago/workspaces/lidar/build/version0
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_generator_c[0m
+[  2%] Built target version0__cpp
+[ 12%] Built target version0__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_scripts
+[ 12%] Built target ament_cmake_python_symlink_version0
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_fastrtps_c[0m
+[ 38%] Built target version0__rosidl_typesupport_c
+[ 38%] Built target version0__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target version0__rosidl_typesupport_introspection_c
+[ 53%] Built target version0__rosidl_typesupport_cpp
+[ 64%] Built target version0__rosidl_typesupport_introspection_cpp
+[ 74%] Built target version0__rosidl_typesupport_fastrtps_c
+[ 74%] Built target version0
+[ 76%] Built target version0__py
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_generator_py[0m
+[ 84%] Built target version0__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target version0__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target version0__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target version0__rosidl_typesupport_c__pyext
+[100%] Built target version0__rosidl_typesupport_introspection_c__pyext
+running egg_info
+running egg_info
+writing scripts.egg-info/PKG-INFO
+writing version0.egg-info/PKG-INFO
+writing dependency_links to scripts.egg-info/dependency_links.txt
+writing dependency_links to version0.egg-info/dependency_links.txt
+writing top-level names to scripts.egg-info/top_level.txt
+writing top-level names to version0.egg-info/top_level.txt
+reading manifest file 'scripts.egg-info/SOURCES.txt'
+reading manifest file 'version0.egg-info/SOURCES.txt'
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+writing manifest file 'version0.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_scripts_egg
+[100%] Built target ament_cmake_python_build_version0_egg
