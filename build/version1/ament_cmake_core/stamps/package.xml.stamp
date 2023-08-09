@@ -16,6 +16,7 @@
 	
 	<depend>rclpy</depend>
 	<depend>action_msgs</depend>
+	<depend>ros_ign_gazebo</depend>
 	<depend>perception_pcl</depend>
 	<depend>pcl_ros</depend>
 	<depend>pcl_msgs</depend>

@@ -18,27 +18,23 @@ find_package(perception_pcl REQUIRED)
 find_package(pcl_ros REQUIRED)
 find_package(pcl_msgs REQUIRED)
 find_package(pcl_conversions REQUIRED)
+find_package(ros_ign_gazebo REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/OddEvenCheck.srv"
-  "action/Navigate.action"
-  DEPENDENCIES
-  sensor_msgs geometry_msgs pcl_conversions
-)
+
 
 ament_python_install_package(scripts)
 
 install(PROGRAMS
   
   scripts/publisher_laserscan.py
-  scripts/publisher_filtro.py
 
   DESTINATION lib/${PROJECT_NAME}
 )
-install(DIRECTORY
-    launch
-    DESTINATION share/${PROJECT_NAME}/
-)
+
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
+install(DIRECTORY worlds DESTINATION share/${PROJECT_NAME}/)
+install(DIRECTORY models DESTINATION share/${PROJECT_NAME}/)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)

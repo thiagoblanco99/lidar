@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/home/thiago/workspaces/lidar/build/version1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version1 -- -j12 -l12
+[0.043s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.171s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.176s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.201s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.204s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.452s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.453s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.687s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[0.687s] -- Found perception_pcl: 2.4.0 (/opt/ros/humble/share/perception_pcl/cmake)
+[0.687s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.922s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.246s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.271s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.522s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.527s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.641s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.645s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.648s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.757s] -- Found Qhull version 8.0.2
+[1.871s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.995s] -- Found ros_ign_gazebo: 0.244.11 (/opt/ros/humble/share/ros_ign_gazebo/cmake)
+[2.593s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.648s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.648s] -- Added test 'lint_cmake' to check CMake code style
+[2.649s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.650s] -- Added test 'xmllint' to check XML markup files
+[2.650s] -- Configuring done
+[2.658s] -- Generating done
+[2.660s] -- Build files have been written to: /home/thiago/workspaces/lidar/build/version1
+[2.696s] Built target ament_cmake_python_symlink_scripts
+[2.875s] running egg_info
+[2.876s] writing scripts.egg-info/PKG-INFO
+[2.876s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[2.876s] writing top-level names to scripts.egg-info/top_level.txt
+[2.877s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[2.878s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[2.898s] Built target ament_cmake_python_build_scripts_egg
+[2.905s] Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version1 -- -j12 -l12
+[2.925s] Invoking command in '/home/thiago/workspaces/lidar/build/version1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version1
+[2.931s] -- Install configuration: ""
+[2.932s] -- Execute custom install script
+[2.932s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.sh
+[2.932s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.dsv
+[2.932s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/__init__.py
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_laserscan.py
+[2.933s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/lib/version1/publisher_laserscan.py
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1//launch/rpm_node_launch.py
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1//worlds/visualize_lidar.sdf
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1//models/RplidarA1/RplidarA1.sdf
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1//models/RplidarA1/model.config
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/package_run_dependencies/version1
+[2.934s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/parent_prefix_path/version1
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/ament_prefix_path.sh
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/ament_prefix_path.dsv
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/path.sh
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/path.dsv
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.bash
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.sh
+[2.935s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.zsh
+[2.936s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/local_setup.dsv
+[2.936s] -- Symlinking: /home/thiago/workspaces/lidar/install/version1/share/version1/package.dsv
+[2.942s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/packages/version1
+[2.942s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1Config.cmake
+[2.942s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/cmake/version1Config-version.cmake
+[2.943s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/package.xml
+[2.963s] Listing '/home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts'...
+[2.967s] Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version1

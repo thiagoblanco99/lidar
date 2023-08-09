@@ -1,0 +1,206 @@
+[0.013s] Invoking command in '/home/thiago/workspaces/lidar/build/version1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version1 -- -j12 -l12
+[0.049s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.106s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.206s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.219s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.467s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.698s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.705s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[0.706s] -- Found perception_pcl: 2.4.0 (/opt/ros/humble/share/perception_pcl/cmake)
+[0.706s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.915s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.221s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.249s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.563s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.568s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.736s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.743s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.750s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.928s] -- Found Qhull version 8.0.2
+[2.134s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.456s] -- Found ros_ign_gazebo: 0.244.11 (/opt/ros/humble/share/ros_ign_gazebo/cmake)
+[3.733s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.329s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.332s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.359s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.360s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.360s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.412s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.425s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.426s] -- Added test 'lint_cmake' to check CMake code style
+[4.426s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.427s] -- Added test 'xmllint' to check XML markup files
+[4.430s] -- Configuring done
+[4.480s] -- Generating done
+[4.484s] -- Build files have been written to: /home/thiago/workspaces/lidar/build/version1
+[4.522s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.529s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.536s] [  5%] Built target ament_cmake_python_symlink_version1
+[4.536s] [  5%] Built target ament_cmake_python_symlink_scripts
+[4.748s] running egg_info
+[4.749s] writing scripts.egg-info/PKG-INFO
+[4.749s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[4.749s] writing top-level names to scripts.egg-info/top_level.txt
+[4.751s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[4.751s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.754s] running egg_info
+[4.755s] writing version1.egg-info/PKG-INFO
+[4.755s] writing dependency_links to version1.egg-info/dependency_links.txt
+[4.755s] writing top-level names to version1.egg-info/top_level.txt
+[4.758s] reading manifest file 'version1.egg-info/SOURCES.txt'
+[4.758s] writing manifest file 'version1.egg-info/SOURCES.txt'
+[4.779s] [  5%] Built target ament_cmake_python_build_scripts_egg
+[4.787s] [  5%] Built target ament_cmake_python_build_version1_egg
+[4.936s] [  5%] Built target version1__cpp
+[4.946s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.946s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.947s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.948s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_generator_c[0m
+[4.958s] [ 17%] [32mBuilding C object CMakeFiles/version1__rosidl_generator_c.dir/rosidl_generator_c/version1/srv/detail/odd_even_check__functions.c.o[0m
+[4.959s] [ 17%] [32mBuilding C object CMakeFiles/version1__rosidl_generator_c.dir/rosidl_generator_c/version1/action/detail/navigate__functions.c.o[0m
+[5.061s] [ 20%] [32m[1mLinking C shared library libversion1__rosidl_generator_c.so[0m
+[5.094s] [ 20%] Built target version1__rosidl_generator_c
+[5.103s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.105s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.105s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.210s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_cpp[0m
+[5.224s] [ 30%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/version1/srv/odd_even_check__type_support.cpp.o[0m
+[5.228s] [ 33%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/version1/action/navigate__type_support.cpp.o[0m
+[5.271s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_cpp[0m
+[5.283s] [ 35%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/version1/srv/detail/odd_even_check__type_support.cpp.o[0m
+[5.285s] [ 38%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/version1/action/detail/navigate__type_support.cpp.o[0m
+[5.436s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_cpp[0m
+[5.446s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_c[0m
+[5.457s] [ 43%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/version1/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o[0m
+[5.457s] [ 43%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/version1/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[5.466s] [ 46%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_c.dir/rosidl_typesupport_c/version1/srv/odd_even_check__type_support.cpp.o[0m
+[5.469s] [ 48%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_c.dir/rosidl_typesupport_c/version1/action/navigate__type_support.cpp.o[0m
+[5.534s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_c[0m
+[5.554s] [ 51%] [32m[1mLinking CXX shared library libversion1__rosidl_typesupport_c.so[0m
+[5.568s] [ 53%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/version1/action/detail/navigate__type_support_c.cpp.o[0m
+[5.569s] [ 56%] [32mBuilding CXX object CMakeFiles/version1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/version1/srv/detail/odd_even_check__type_support_c.cpp.o[0m
+[5.621s] [ 56%] Built target version1__rosidl_typesupport_c
+[5.635s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_c[0m
+[5.650s] [ 61%] [32mBuilding C object CMakeFiles/version1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/version1/srv/detail/odd_even_check__type_support.c.o[0m
+[5.650s] [ 61%] [32mBuilding C object CMakeFiles/version1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/version1/action/detail/navigate__type_support.c.o[0m
+[5.714s] [ 64%] [32m[1mLinking C shared library libversion1__rosidl_typesupport_introspection_c.so[0m
+[5.773s] [ 64%] Built target version1__rosidl_typesupport_introspection_c
+[5.831s] [ 66%] [32m[1mLinking CXX shared library libversion1__rosidl_typesupport_cpp.so[0m
+[5.881s] [ 66%] Built target version1__rosidl_typesupport_cpp
+[6.005s] [ 69%] [32m[1mLinking CXX shared library libversion1__rosidl_typesupport_fastrtps_c.so[0m
+[6.061s] [ 71%] [32m[1mLinking CXX shared library libversion1__rosidl_typesupport_introspection_cpp.so[0m
+[6.096s] [ 71%] Built target version1__rosidl_typesupport_fastrtps_c
+[6.128s] [ 71%] Built target version1__rosidl_typesupport_introspection_cpp
+[6.129s] [ 74%] [32m[1mLinking CXX shared library libversion1__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.188s] [ 74%] Built target version1__rosidl_typesupport_fastrtps_cpp
+[6.203s] [ 74%] Built target version1
+[6.219s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.838s] [ 76%] Built target version1__py
+[6.846s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_generator_py[0m
+[6.857s] [ 82%] [32mBuilding C object CMakeFiles/version1__rosidl_generator_py.dir/rosidl_generator_py/version1/action/_navigate_s.c.o[0m
+[6.857s] [ 82%] [32mBuilding C object CMakeFiles/version1__rosidl_generator_py.dir/rosidl_generator_py/version1/srv/_odd_even_check_s.c.o[0m
+[6.955s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/version1/libversion1__rosidl_generator_py.so[0m
+[6.987s] [ 84%] Built target version1__rosidl_generator_py
+[6.995s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_c__pyext[0m
+[6.995s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_introspection_c__pyext[0m
+[6.995s] [35m[1mConsolidate compiler generated dependencies of target version1__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.004s] [ 92%] [32mBuilding C object CMakeFiles/version1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/version1/_version1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.005s] [ 92%] [32mBuilding C object CMakeFiles/version1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/version1/_version1_s.ep.rosidl_typesupport_c.c.o[0m
+[7.005s] [ 92%] [32mBuilding C object CMakeFiles/version1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/version1/_version1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.109s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/version1/version1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.109s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/version1/version1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.114s] [100%] [32m[1mLinking C shared library rosidl_generator_py/version1/version1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.150s] [100%] Built target version1__rosidl_typesupport_introspection_c__pyext
+[7.150s] [100%] Built target version1__rosidl_typesupport_fastrtps_c__pyext
+[7.155s] [100%] Built target version1__rosidl_typesupport_c__pyext
+[7.164s] Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thiago/workspaces/lidar/build/version1 -- -j12 -l12
+[7.208s] Invoking command in '/home/thiago/workspaces/lidar/build/version1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version1
+[7.213s] -- Install configuration: ""
+[7.214s] -- Execute custom install script
+[7.214s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/ament_index/resource_index/rosidl_interfaces/version1
+[7.214s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__functions.h
+[7.214s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__struct.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__type_support.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/navigate.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_generator_c__visibility_control.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__functions.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__struct.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__type_support.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/odd_even_check.h
+[7.215s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/library_path.sh
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/library_path.dsv
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__builder.hpp
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__struct.hpp
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__traits.hpp
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/navigate.hpp
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__builder.hpp
+[7.218s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__struct.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__traits.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/odd_even_check.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[7.219s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/include/version1/version1/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.sh
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/environment/pythonpath.dsv
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/PKG-INFO
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.220s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info/top_level.txt
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/__init__.py
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_c.c
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/_version1_s.ep.rosidl_typesupport_introspection_c.c
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/__init__.py
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/_navigate.py
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/action/_navigate_s.c
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/libversion1__rosidl_generator_py.so
+[7.221s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/__init__.py
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/_odd_even_check.py
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/srv/_odd_even_check_s.c
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/version1/version1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck.idl
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/action/Navigate.idl
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck.srv
+[7.222s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck_Request.msg
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/srv/OddEvenCheck_Response.msg
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/share/version1/action/Navigate.action
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/__init__.py
+[7.223s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/local/lib/python3.10/dist-packages/scripts/publisher_laserscan.py
+[7.224s] -- Up-to-date symlink: /home/thiago/workspaces/lidar/install/version1/lib/version1/publisher_laserscan.py
+[7.224s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[7.224s]   ament_cmake_symlink_install_programs() can't find
+[7.224s]   '/home/thiago/workspaces/lidar/src/version1/scripts/publisher_filtro.py'
+[7.224s] Call Stack (most recent call first):
+[7.224s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:386 (ament_cmake_symlink_install_programs)
+[7.224s]   cmake_install.cmake:46 (include)
+[7.224s] 
+[7.224s] [0m
+[7.225s] Invoked command in '/home/thiago/workspaces/lidar/build/version1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thiago/workspaces/lidar/build/version1

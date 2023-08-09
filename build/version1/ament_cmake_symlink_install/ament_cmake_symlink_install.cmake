@@ -310,71 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/version1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/version1" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.h")
-
-# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/version1/environment")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/version1/environment")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/version1/environment")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/version1/environment")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_fastrtps_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_fastrtps_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN_EXCLUDE" "*.cpp")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.hpp")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_fastrtps_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_fastrtps_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN_EXCLUDE" "*.cpp")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_introspection_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_introspection_c/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.h")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_introspection_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_typesupport_introspection_cpp/version1/" "DESTINATION" "include/version1/version1" "PATTERN" "*.hpp")
-
 # install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/version1/environment")
 ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/version1/environment")
 
 # install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/version1/environment")
 ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/version1/environment")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/ament_cmake_python/version1/version1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/ament_cmake_python/version1/version1.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/version1-0.0.0-py3.10.egg-info")
-
-# install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_py/version1/" "DESTINATION" "local/lib/python3.10/dist-packages/version1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/rosidl_generator_py/version1/" "DESTINATION" "local/lib/python3.10/dist-packages/version1" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-
-# install("TARGETS" "version1__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/version1")
-include("/home/thiago/workspaces/lidar/build/version1/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "version1__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/version1")
-include("/home/thiago/workspaces/lidar/build/version1/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "version1__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/version1")
-include("/home/thiago/workspaces/lidar/build/version1/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_adapter/version1/srv/OddEvenCheck.idl" "DESTINATION" "share/version1/srv")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_adapter/version1/srv/OddEvenCheck.idl" "DESTINATION" "share/version1/srv")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_adapter/version1/action/Navigate.idl" "DESTINATION" "share/version1/action")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_adapter/version1/action/Navigate.idl" "DESTINATION" "share/version1/action")
-
-# install(FILES "/home/thiago/workspaces/lidar/src/version1/srv/OddEvenCheck.srv" "DESTINATION" "share/version1/srv")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/src/version1/srv/OddEvenCheck.srv" "DESTINATION" "share/version1/srv")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/srv/OddEvenCheck_Request.msg" "DESTINATION" "share/version1/srv")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/srv/OddEvenCheck_Request.msg" "DESTINATION" "share/version1/srv")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/srv/OddEvenCheck_Response.msg" "DESTINATION" "share/version1/srv")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/srv/OddEvenCheck_Response.msg" "DESTINATION" "share/version1/srv")
-
-# install(FILES "/home/thiago/workspaces/lidar/src/version1/action/Navigate.action" "DESTINATION" "share/version1/action")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/src/version1/action/Navigate.action" "DESTINATION" "share/version1/action")
 
 # install(DIRECTORY "/home/thiago/workspaces/lidar/build/version1/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/build/version1/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
@@ -382,11 +322,17 @@ ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version
 # install(DIRECTORY "/home/thiago/workspaces/lidar/src/version1/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "/home/thiago/workspaces/lidar/src/version1/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/publisher_laserscan.py" "scripts/publisher_filtro.py" "DESTINATION" "lib/version1")
-ament_cmake_symlink_install_programs("/home/thiago/workspaces/lidar/src/version1" PROGRAMS "scripts/publisher_laserscan.py" "scripts/publisher_filtro.py" "DESTINATION" "lib/version1")
+# install(PROGRAMS "scripts/publisher_laserscan.py" "DESTINATION" "lib/version1")
+ament_cmake_symlink_install_programs("/home/thiago/workspaces/lidar/src/version1" PROGRAMS "scripts/publisher_laserscan.py" "DESTINATION" "lib/version1")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/version1/")
 ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "launch" "DESTINATION" "share/version1/")
+
+# install(DIRECTORY "worlds" "DESTINATION" "share/version1/")
+ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "worlds" "DESTINATION" "share/version1/")
+
+# install(DIRECTORY "models" "DESTINATION" "share/version1/")
+ament_cmake_symlink_install_directory("/home/thiago/workspaces/lidar/src/version1" DIRECTORY "models" "DESTINATION" "share/version1/")
 
 # install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/version1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/version1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -423,27 +369,6 @@ ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" F
 
 # install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/packages/version1" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_index/share/ament_index/resource_index/packages/version1" "DESTINATION" "share/ament_index/resource_index/packages")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/version1/cmake")
-
-# install(FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/version1/cmake")
-ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/version1/cmake")
 
 # install(FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_core/version1Config.cmake" "/home/thiago/workspaces/lidar/build/version1/ament_cmake_core/version1Config-version.cmake" "DESTINATION" "share/version1/cmake")
 ament_cmake_symlink_install_files("/home/thiago/workspaces/lidar/src/version1" FILES "/home/thiago/workspaces/lidar/build/version1/ament_cmake_core/version1Config.cmake" "/home/thiago/workspaces/lidar/build/version1/ament_cmake_core/version1Config-version.cmake" "DESTINATION" "share/version1/cmake")

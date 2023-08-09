@@ -662,29 +662,7 @@ max_serialized_size_UUID(
 }  // namespace msg
 }  // namespace unique_identifier_msgs
 
-namespace version0
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const version0::action::Navigate_Goal &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  version0::action::Navigate_Goal &);
-size_t get_serialized_size(
-  const version0::action::Navigate_Goal &,
-  size_t current_alignment);
-size_t
-max_serialized_size_Navigate_Goal(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace version0
+// functions for version0::action::Navigate_Goal already declared above
 
 
 namespace version0
@@ -1235,29 +1213,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace unique_identifier_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const unique_identifier_msgs::msg::UUID &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  unique_identifier_msgs::msg::UUID &);
-size_t get_serialized_size(
-  const unique_identifier_msgs::msg::UUID &,
-  size_t current_alignment);
-size_t
-max_serialized_size_UUID(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace unique_identifier_msgs
+// functions for unique_identifier_msgs::msg::UUID already declared above
 
 
 namespace version0
@@ -1466,29 +1422,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace version0
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const version0::action::Navigate_Result &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  version0::action::Navigate_Result &);
-size_t get_serialized_size(
-  const version0::action::Navigate_Result &,
-  size_t current_alignment);
-size_t
-max_serialized_size_Navigate_Result(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace version0
+// functions for version0::action::Navigate_Result already declared above
 
 
 namespace version0
@@ -1778,53 +1712,9 @@ ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace unique_identifier_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const unique_identifier_msgs::msg::UUID &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  unique_identifier_msgs::msg::UUID &);
-size_t get_serialized_size(
-  const unique_identifier_msgs::msg::UUID &,
-  size_t current_alignment);
-size_t
-max_serialized_size_UUID(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace unique_identifier_msgs
+// functions for unique_identifier_msgs::msg::UUID already declared above
 
-namespace version0
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const version0::action::Navigate_Feedback &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  version0::action::Navigate_Feedback &);
-size_t get_serialized_size(
-  const version0::action::Navigate_Feedback &,
-  size_t current_alignment);
-size_t
-max_serialized_size_Navigate_Feedback(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace version0
+// functions for version0::action::Navigate_Feedback already declared above
 
 
 namespace version0
