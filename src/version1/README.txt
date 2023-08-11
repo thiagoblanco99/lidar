@@ -6,7 +6,7 @@ ros2 run ros_gz_bridge parameter_bridge /lidar3@sensor_msgs/msg/LaserScan[igniti
 
 rviz2 // abro rviz y en fixed framed tengo que poner vehicle_blue/lidar_link/rplidar
 
- ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/model/vehicle_blue/cmd_vel // abro la ventana de comandos teleop para controlar el robot.
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/model/vehicle_blue/cmd_vel // abro la ventana de comandos teleop para controlar el robot.
  
  python3 publisher_laserscan.py // Por si queremos probar el traspaso de publisher y subscriber.
 
