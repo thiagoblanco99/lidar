@@ -8,6 +8,7 @@
       "includePath": [
         "/opt/ros/humble/include/**",
         "/home/thiago/workspaces/lidar/src/version0/include/**",
+        "/home/thiago/workspaces/lidar/src/version1/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
